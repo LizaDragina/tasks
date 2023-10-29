@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    background-color: rgb(198, 198, 198);
+}
+
+.main{
+    display: flex;
+    background-color: cornsilk;
+    min-height: 100vh;
+}
+
+.flex-container{
+    display:flex;
+    align-self: flex-end;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flex-container article{
+    width: 30vw;
+    height: 5vh;
+    text-align: center;
+    background-color: rgb(249, 244, 166);
+}
+
+.flex-aside{
+    display: flex;
+    justify-content:flex-end;
+    flex-flow: row-reverse wrap; 
+    background-color: rgb(139, 176, 184);
+    width: 30%;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(198, 198, 198);
+}
+
+.flex-element{
+    background-color: cornsilk;
+    text-align: center;
+}
