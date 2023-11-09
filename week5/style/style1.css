@@ -1,0 +1,107 @@
+.museum-name{
+    font-family: 'Philosopher', sans-serif;
+    color: aliceblue;
+    flex: 0 0 100%;
+}
+
+.gallery-magic{
+    font-family: 'Cormorant SC', serif;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.museum-header{
+    background-color: rgb(69, 53, 24);
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+.museum-div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.museum-navigation{
+    font-family: 'Cormorant SC', serif;
+    color: aliceblue;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+.museum-creatures{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.img-pic{
+    max-height: 20vw;
+    margin: 15px;
+    transition: 1s;
+}
+
+.image{
+    display: inline-block;
+    overflow: hidden;
+}
+.image .img10{
+    display: block;
+    transition: 1s;
+}
+
+.photo-name{
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+.photo-name:hover{
+    color:#808000;
+}
+
+.img1:hover{
+    transform: scale(1.2);
+}
+
+.img2:hover{
+    filter: grayscale(1);
+}
+
+.img3:hover{
+    transform: scale(1.2);
+}
+
+.img4:hover{
+    filter: blur(5px);
+}
+
+.img5:hover{
+    filter: brightness(2) grayscale(1) opacity(0.5);
+}
+
+.img6:hover{
+    filter: invert(1);
+}
+
+.img7:hover{
+    filter:sepia(1);
+}
+
+.img8:hover{
+    filter:invert(1);
+}
+
+.img9:hover{
+    filter: brightness(2) grayscale(1) opacity(0.5);
+}
+
+.img10:hover{
+    transform: scale(1.2);
+}
+
+.img11:hover{
+    filter:sepia(1);
+}
+
