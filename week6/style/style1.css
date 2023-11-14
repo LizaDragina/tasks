@@ -1,0 +1,162 @@
+.container{
+    display: grid;
+    grid-template-areas: "header header header"
+    "main main main"
+    "footer footer footer";
+    grid-template-rows: 119px 1fr 1fr;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    background-color: #181818;
+}
+
+.header{
+    grid-area: header;
+    margin-top: 38px;
+}
+
+.navigation{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 100px);
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.logo{
+    justify-self: center;
+    width: 150px;
+    margin-right: 257px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    text-shadow: rgb(242, 7, 175) 3px 1px 8px;
+}
+
+.home, .product, .about, .contact {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.home:hover{
+    border: 1px solid white;
+    background-color: beige;
+    color: #181818;
+    height: 36px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 80px;
+}
+.product:hover{
+    border: 1px solid white;
+    background-color: beige;
+    color: #181818;
+    height: 36px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 80px;
+}
+.about:hover{
+    border: 1px solid white;
+    background-color: beige;
+    color: #181818;
+    height: 36px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 80px;
+}
+.contact:hover{
+    border: 1px solid white;
+    background-color: beige;
+    color: #181818;
+    height: 36px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 80px;
+}
+
+.login{
+    width: 139px;
+    height: 36px;
+    justify-content: center;
+    margin-left: 184px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    padding-top: 13px;
+}
+.login:hover{
+    background-color: beige;
+    color: #181818;
+}
+
+.main{
+    grid-area: main;
+    justify-content: center;
+    text-align: center;
+}
+
+.big-text{
+    margin-top: 120px;
+    margin-bottom: 50px;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.small-text{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3,260px) ;
+    grid-area: footer;
+    justify-content: space-evenly;
+    padding: 107px 0px;
+    gap: 19px;
+}
+
+.social{
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    width: 46px;
+    height: 46px;
+    margin-right: 24px;
+}
+
+#addr, #numb{
+    margin-bottom: 50px;
+}
+
+.for_addr, .for_numb{
+    width: 36px;
+    height: 36px;
+    float: left;
+    margin: 0px 15px 0px 0px;
+}
+
+.n1{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    margin-bottom: 40px;
+}
+
+.n2{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
